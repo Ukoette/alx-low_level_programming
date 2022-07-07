@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	long int i, j, k, nex;
+	long int i, j, k, next;
 	
 	j = 1;
 
-	k = ;
+	k = 2;
 
-	for (i = 1; i < 50; ++)
+	for (i = 1; i < 50; ++i)
 	{
 		if (j != 20365011074)
 		{
