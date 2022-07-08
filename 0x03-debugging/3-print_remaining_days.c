@@ -4,7 +4,7 @@
 /**
  * print_remaining_days - tasks a date and prints how many days are left...
  * ...in the yeear, taking leap years into account
- * @month: month in number format 
+ * @month: month in number format
  * @day: day of the month
  * @year: year
  * Return: void
@@ -12,7 +12,7 @@
 
 void print_remaining_days(int month, int day, int year)
 {
-	if ((year % 100 == 0 || year % 400 == 0) || (year % 4 ==0))
+	if ((year % 100 == 0 || year % 400 == 0) || (year % 4 ==0 ))
 	{
 		if (month > 2 && day >= 60)
 		{
