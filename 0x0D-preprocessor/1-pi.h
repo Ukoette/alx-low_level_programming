@@ -1,6 +1,7 @@
-#define 1-pi.h
+#ifndef OBJECT_LIKE_MACRO_H
 
-#endif 1-pi.h
+#define OBJECT_LIKE_MACRO_H
 
 #define PI 3.14159265359
+
 #endif
