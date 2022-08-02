@@ -2,12 +2,11 @@
 
 #include <stdlib.h>
 
-#define OBJECT_LIKE_MACRO.H
-
 int main()
 
 {
-	printf("%s\n", main.c)
-#endif
+	printf("%s\n", __FILE__);
+
+	return(0);
 }
 
