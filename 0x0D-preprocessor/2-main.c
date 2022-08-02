@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "MAIN.H"
 
 int main(void)   /* code to display source code file. */
 {
