@@ -1,9 +1,15 @@
 #include <stdio.h>
 
-int main(void)   /* code to display source code file. */
+/**
+ * main - Prints the files it
+ *        was compile from.
+ *
+ *Return: Always zero
+ */
+
+int main(void)
 {
 	printf("%s\n", __FILE__);
 
 	return (0);
 }
-
