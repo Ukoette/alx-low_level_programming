@@ -1,18 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef "3-FUNCTION_LIKE_MACRO_H"
 
+#define "3-FUNCTION_LIKE_MACRO_H"
 
 #define ABS(x) ((x) < 0 ? -(x) : (x))
 
-int main(void)
-{
-	int i;
-	int j;
-
-	i = ABS(6);
-	j = ABS(-5);
-
-	printf("%d, %d\n", i, j);
-	return (0);
-}
-
+#endif
