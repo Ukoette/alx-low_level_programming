@@ -1,8 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#ifdef ABS(x)
 
 #define ABS(x) ((x) < 0 ? -(x) : (x))
 
-#endif
+int main(void)
+{
+	int i;
+	int j;
+
+	i = ABS(6);
+	j = ABS(-5);
+
+	printf("%d, %d\n", i, j);
+	return (0);
+}
+
