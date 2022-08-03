@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define ABS(x) x
+#ifdef ABS(x)
 
-int main()
-{
+#define ABS(x) ((x) < 0 ? -(x) : (x))
 
-}
-return 0
+#endif
