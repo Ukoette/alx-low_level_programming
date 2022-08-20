@@ -8,7 +8,7 @@
  *
  * Return: 1 if it worked, -1 if it didd't.
  */
-int set_bit(unsigned long int*n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned int m;
 
