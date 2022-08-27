@@ -6,12 +6,12 @@
 /**
  * read_textfile - Read a text file and print it to POSIX stdout.
  * @filename: Apointer to the name of the file.
- * @letter: The number of letters the 
+ * @letter: The number of letters the
  * function should return.
  *
  * Return: If the function fails or filename id NULL -0.
  *
- * */
+ */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -36,3 +36,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 
 	return (w);
+
+}
